@@ -1,0 +1,6 @@
+<d>
+	<baseurl>http://boxoffice/</baseurl>
+	<entrypoint>htrivia</entrypoint>
+	<afterpath>boxoffice</afterpath>
+	<silent>true</silent>
+</d>

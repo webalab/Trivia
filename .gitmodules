@@ -1,0 +1,6 @@
+[submodule "Hexperimental-Framework"]
+	path = Hexperimental-Framework
+	url = git@github.com:webalab/Hexperimental-Framework.git
+[submodule "Trivia/libs/hex"]
+	path = Trivia/libs/hex
+	url = git@github.com:webalab/Hexperimental-Framework.git

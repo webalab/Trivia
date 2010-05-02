@@ -5,12 +5,12 @@
 		<incremental>true</incremental>
 		<optimize>true</optimize>
 		<keep-generated-actionscript>false</keep-generated-actionscript>
-		<warn-no-constructor>true</warn-no-constructor>
-		<warn-no-explicit-super-call-in-constructor>true</warn-no-explicit-super-call-in-constructor>
+		<warn-no-constructor>false</warn-no-constructor>
+		<warn-no-explicit-super-call-in-constructor>false</warn-no-explicit-super-call-in-constructor>
 		<show-actionscript-warnings>true</show-actionscript-warnings>
 		<show-binding-warnings>true</show-binding-warnings>
 		<show-unused-type-selector-warnings>true</show-unused-type-selector-warnings>
-		<debug>false</debug>
+		<debug>true</debug>
 
 		<!-- Example library linkage -->
 
@@ -20,13 +20,17 @@
 		</library-path>
 		-->
 		
-		<!-- for src
-		<source-path append="true">
-			<path-element>../libs/src/</path-element>
-		</source-path>
-		-->
 		
+		<source-path append="true">
+			<path-element>../libs/hex</path-element>
+		</source-path>
+		
+		<source-path append="true">
+			<path-element>../libs/corelib</path-element>
+		</source-path>
+				
 	</compiler>
+	<static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
 	<metadata>
 		<title>Trivia Application</title>
 		<description>Trivia Project</description>
